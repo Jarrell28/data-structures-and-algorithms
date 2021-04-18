@@ -80,7 +80,7 @@ For example, filterStringsWithVowels('gregor','hound','xyz') returns ['gregor', 
 
 const filterStringsWithVowels = (arr) => {
   // Solution code here...
-  const regex = /[aeiou]/ig;
+  const regex = /[aeiou]/i;
 
   return arr.filter(word => {
     if (regex.test(word)) {
