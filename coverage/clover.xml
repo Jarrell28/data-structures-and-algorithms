@@ -1,44 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1618950090229" clover="3.2.0">
-  <project timestamp="1618950090229" name="All files">
-    <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2" elements="30" coveredelements="30" complexity="0" loc="20" ncloc="20" packages="3" files="3" classes="3"/>
-    <package name="challenges.arrayShift">
-      <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-      <file name="array-shift.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/challenges/arrayShift/array-shift.js">
-        <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="16" count="11" type="cond" truecount="2" falsecount="0"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="22" count="9" type="cond" truecount="4" falsecount="0"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="28" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="32" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="36" count="2" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="42" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="javascript.code-challenges.reverse-ll">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="reverse-ll.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/reverse-ll/reverse-ll.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="javascript.linked-list">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/linked-list/index.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="7" count="2" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1619045231071" clover="3.2.0">
+  <project timestamp="1619045231071" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="16" coveredelements="16" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+    <file name="array-binary-search.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/arrayBinarySearch/array-binary-search.js">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="7" type="stmt"/>
+      <line num="13" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>
