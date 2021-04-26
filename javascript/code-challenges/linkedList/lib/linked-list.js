@@ -68,6 +68,64 @@ class LinkedList {
 
         return string;
     }
+
+    insertBefore(value, newVal) {
+        let current = this.head;
+        //Keep track of previous node to link prev next to the new node
+        let prev;
+
+        while (current) {
+            if (current.value === value) {
+                //create new node value
+                let node = new Node(newVal);
+
+                //Check if current is the head
+                if (current.value === this.head.value) {
+                    //sets new node next to the current head
+                    node.next = current;
+                    //updates the current head to new node
+                    this.head = node;
+
+                    return this;
+                } else {
+                    //sets previous node.next to the new node
+                    prev.next = node;
+                    //sets the new node.next to the current node
+                    node.next = current;
+                    return this;
+                }
+            } else {
+                //continue the traversal and update prev and current
+                prev = current;
+                current = current.next;
+            }
+        }
+
+        return this;
+    }
+
+    insertAfter(value, newVal) {
+        let current = this.head;
+        while (current) {
+            if (current.value === value) {
+                //create new node
+                let node = new Node(newVal);
+
+                //update node.next
+                node.next = current.next;
+
+                //update current next to new Node
+                current.next = node;
+
+                return this;
+            } else {
+                //continue the traversal
+                current = current.next;
+            }
+        }
+
+        return this;
+    }
 }
 
 module.exports = LinkedList;
