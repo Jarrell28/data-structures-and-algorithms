@@ -20,7 +20,6 @@ describe('Linked List', () => {
     it('head should properly point ot the first node in the linked list', () => {
         let list = new LL();
         let first = 1;
-        let second = 2;
 
         list.append(first);
         expect(list.head.value).toEqual(1);
@@ -80,6 +79,66 @@ describe('Linked List', () => {
         list.append(second);
         expect(list.head.next.value).toEqual(2);
     });
+
+
+    it('should insert a new node before a node in the middle of a linked list', () => {
+        let list = new LL();
+
+        let first = 1;
+        let middle = 3;
+        let third = 4;
+
+        list.append(first);
+        list.append(middle);
+        list.append(third);
+
+        list.insertBefore(3, 2);
+        expect(list.head.next.value).toEqual(2);
+    });
+
+    it('should insert a new node before the first node in a linked list', () => {
+        let list = new LL();
+
+        let first = 2;
+        let second = 3;
+
+        list.append(first);
+        list.append(second);
+
+        list.insertBefore(2, 1);
+        expect(list.head.value).toEqual(1);
+    });
+
+    it('should insert a new node after a node in the middle of a linked list', () => {
+        let list = new LL();
+
+        let first = 1;
+        let middle = 2;
+        let third = 4;
+
+        list.append(first);
+        list.append(middle);
+        list.append(third);
+
+        list.insertAfter(2, 3);
+        expect(list.toString()).toEqual("{ 1 } -> { 2 } -> { 3 } -> { 4 } -> NULL");
+    });
+
+    it('should insert a new node after the last node of the linked list', () => {
+        let list = new LL();
+
+        let first = 1;
+        let middle = 2;
+        let third = 3;
+
+        list.append(first);
+        list.append(middle);
+        list.append(third);
+
+        list.insertAfter(3, 4);
+        expect(list.toString()).toEqual("{ 1 } -> { 2 } -> { 3 } -> { 4 } -> NULL");
+    })
+
 
 
 })
