@@ -10,7 +10,7 @@ ll.append(10);
 
 ll.append(20);
 
-ll.insertAfter(5, 8);
+// ll.insertAfter(5, 8);
 
 // ll.insert(5);
 
@@ -18,6 +18,8 @@ ll.insertAfter(5, 8);
 
 // ll.insertBefore(20, 15);
 
-console.log(ll.toString());
+ll.kthFromEnd(0);
 
-console.log(ll);
+// console.log(ll.toString());
+
+// console.log(ll);

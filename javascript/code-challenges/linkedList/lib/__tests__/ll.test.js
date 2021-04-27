@@ -137,6 +137,90 @@ describe('Linked List', () => {
 
         list.insertAfter(3, 4);
         expect(list.toString()).toEqual("{ 1 } -> { 2 } -> { 3 } -> { 4 } -> NULL");
+    });
+
+    it('should return correct value when calling kthFromEnd method', () => {
+        let list = new LL();
+
+        let first = 1;
+        let second = 2;
+        let third = 3;
+        let fourth = 4;
+        let fifth = 5;
+
+        list.append(first);
+        list.append(second);
+        list.append(third);
+        list.append(fourth);
+        list.append(fifth);
+
+        expect(list.kthFromEnd(0)).toEqual(5);
+    })
+
+    it('should return null when argument is greater than the length of the linked list', () => {
+        let list = new LL();
+
+        let first = 1;
+        let middle = 2;
+        let third = 3;
+
+        list.append(first);
+        list.append(middle);
+        list.append(third);
+
+        expect(list.kthFromEnd(5)).toBe(null);
+    })
+
+    it('should return null when argument is equal to the length of the linked list', () => {
+        let list = new LL();
+
+        let first = 1;
+        let middle = 2;
+        let third = 3;
+
+        list.append(first);
+        list.append(middle);
+        list.append(third);
+
+        expect(list.kthFromEnd(3)).toBe(null);
+    })
+
+    it('should return null when argument is not a positive integer', () => {
+        let list = new LL();
+
+        let first = 1;
+        let middle = 2;
+        let third = 3;
+
+        list.append(first);
+        list.append(middle);
+        list.append(third);
+
+        expect(list.kthFromEnd(-1)).toBe(null);
+    })
+
+    it('should return value and message when linked list is size of 1 and argument is 0', () => {
+        let list = new LL();
+
+        let first = 1;
+
+        list.append(first);
+
+        expect(list.kthFromEnd(0)).toEqual(`Linked list length is one: 1`);
+    })
+
+    it('should return value and message when argument is in the middle of linked list', () => {
+        let list = new LL();
+
+        let first = 1;
+        let middle = 2;
+        let third = 3;
+
+        list.append(first);
+        list.append(middle);
+        list.append(third);
+
+        expect(list.kthFromEnd(1)).toEqual("Happy Path: 2");
     })
 
 
