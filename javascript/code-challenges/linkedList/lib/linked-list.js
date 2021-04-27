@@ -126,6 +126,42 @@ class LinkedList {
 
         return this;
     }
+
+    kthFromEnd(k) {
+        //k is a negative number return null
+        if (k < 0) return null;
+
+        let current = this.head;
+        let arrayList = [];
+
+        //converting linked list to array
+        while (current) {
+            if (current) {
+                arrayList.push(current.value);
+            }
+            current = current.next;
+        }
+
+        arrayList = arrayList.reverse();
+
+
+        //if k is equal to array length, index is out of bounds return 0
+        if (k > arrayList.length || k === arrayList.length) return null;
+
+        //Only one item in linked list
+        if (k === 0 && arrayList.length === 1) {
+            return `Linked list length is one: ${arrayList[k]}`
+        }
+
+        //Happy Path
+        if ((k > 0) && (k < arrayList.length - 1)) {
+            return `Happy Path: ${arrayList[k]}`
+        }
+
+
+        return arrayList[k];
+
+    }
 }
 
 module.exports = LinkedList;

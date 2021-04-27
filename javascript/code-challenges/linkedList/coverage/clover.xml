@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619467099283" clover="3.2.0">
-  <project timestamp="1619467099283" name="All files">
-    <metrics statements="56" coveredstatements="53" conditionals="12" coveredconditionals="11" methods="8" coveredmethods="8" elements="76" coveredelements="72" complexity="0" loc="56" ncloc="56" packages="1" files="2" classes="2"/>
+<coverage generated="1619558210826" clover="3.2.0">
+  <project timestamp="1619558210827" name="All files">
+    <metrics statements="70" coveredstatements="67" conditionals="28" coveredconditionals="26" methods="9" coveredmethods="9" elements="107" coveredelements="102" complexity="0" loc="70" ncloc="70" packages="1" files="2" classes="2"/>
     <file name="linked-list.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/linkedList/lib/linked-list.js">
-      <metrics statements="53" coveredstatements="50" conditionals="12" coveredconditionals="11" methods="7" coveredmethods="7"/>
+      <metrics statements="67" coveredstatements="64" conditionals="28" coveredconditionals="26" methods="8" coveredmethods="8"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="7" count="12" type="stmt"/>
-      <line num="12" count="21" type="stmt"/>
-      <line num="14" count="21" type="cond" truecount="2" falsecount="0"/>
-      <line num="15" count="10" type="stmt"/>
-      <line num="19" count="11" type="stmt"/>
-      <line num="21" count="11" type="stmt"/>
-      <line num="22" count="6" type="stmt"/>
-      <line num="25" count="11" type="stmt"/>
-      <line num="28" count="21" type="stmt"/>
+      <line num="7" count="18" type="stmt"/>
+      <line num="12" count="39" type="stmt"/>
+      <line num="14" count="39" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="16" type="stmt"/>
+      <line num="19" count="23" type="stmt"/>
+      <line num="21" count="23" type="stmt"/>
+      <line num="22" count="16" type="stmt"/>
+      <line num="25" count="23" type="stmt"/>
+      <line num="28" count="39" type="stmt"/>
       <line num="33" count="4" type="stmt"/>
       <line num="34" count="4" type="stmt"/>
       <line num="35" count="4" type="stmt"/>
@@ -56,12 +56,26 @@
       <line num="120" count="2" type="stmt"/>
       <line num="123" count="3" type="stmt"/>
       <line num="127" count="0" type="stmt"/>
-      <line num="131" count="1" type="stmt"/>
+      <line num="132" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="134" count="5" type="stmt"/>
+      <line num="135" count="5" type="stmt"/>
+      <line num="138" count="5" type="stmt"/>
+      <line num="139" count="15" type="cond" truecount="1" falsecount="1"/>
+      <line num="140" count="15" type="stmt"/>
+      <line num="142" count="15" type="stmt"/>
+      <line num="145" count="5" type="stmt"/>
+      <line num="149" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="152" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="153" count="1" type="stmt"/>
+      <line num="157" count="2" type="cond" truecount="4" falsecount="0"/>
+      <line num="158" count="1" type="stmt"/>
+      <line num="162" count="1" type="stmt"/>
+      <line num="167" count="1" type="stmt"/>
     </file>
     <file name="node.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/linkedList/lib/node.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="5" count="29" type="stmt"/>
-      <line num="6" count="29" type="stmt"/>
+      <line num="5" count="47" type="stmt"/>
+      <line num="6" count="47" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
     </file>
   </project>
