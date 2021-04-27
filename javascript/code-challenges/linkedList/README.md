@@ -18,3 +18,5 @@ append(value) - Adds a node to the end of the linked list
 insertBefore(value, newValue) - Inserts a new node in the linked list before a node that matches the value of the first argument
 
 insertAfter(value, newValue) - Inserts a new node in the linked list after a node that matches the value of the first argument
+
+kthFromEnd(index) - Returns the nodes value whose index is equal to argument starting from the end of the list
