@@ -3,7 +3,7 @@ Singly Linked List - A list of items that has a value and a reference to the nex
 
 
 ## Challenge Description
-Create three methods to use on your Singly Linked List class, one for inserting values in the beginning of the list, one that checks if a value exists in the list, and one the prints out a string of the values in the list
+Create  methods to use on your Singly Linked List class
 
 ## API
 
