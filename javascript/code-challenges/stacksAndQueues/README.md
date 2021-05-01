@@ -17,9 +17,9 @@ pop() - Nodes or items that are removed from the stack are popped. When you atte
 
 **Queue Methods**
 
-Enqueue - Nodes or items that are added to the queue.
+Enqueue(value) - Nodes or items that are added to the queue.
 
-Dequeue - Nodes or items that are removed from the queue. If called when the queue is empty an exception will be raised.
+Dequeue() - Nodes or items that are removed from the queue. If called when the queue is empty an exception will be raised.
 
 
 **Shared Methods**
