@@ -14,4 +14,4 @@ Class 08 - [Linked List ZIP](https://github.com/Jarrell28/data-structures-and-al
 
 Class 10 - [Stacks and Queues](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/stacksAndQueues)
 
-Class 11 - [Queues with stacks](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/queue-with-stacks)
+Class 11 - [Queues with stacks](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/queueWithStacks)
