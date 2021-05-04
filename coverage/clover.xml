@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619904047013" clover="3.2.0">
-  <project timestamp="1619904047013" name="All files">
-    <metrics statements="20" coveredstatements="19" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="6" elements="34" coveredelements="31" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
-    <file name="nodes.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/stacksAndQueues/nodes.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="5" count="13" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-    </file>
-    <file name="queues.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/stacksAndQueues/queues.js">
-      <metrics statements="18" coveredstatements="17" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+<coverage generated="1620089634295" clover="3.2.0">
+  <project timestamp="1620089634295" name="All files">
+    <metrics statements="26" coveredstatements="24" conditionals="8" coveredconditionals="4" methods="8" coveredmethods="7" elements="42" coveredelements="35" complexity="0" loc="26" ncloc="26" packages="1" files="2" classes="2"/>
+    <file name="queue-with-stacks.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/queueWithStacks/queue-with-stacks.js">
+      <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="7" count="7" type="stmt"/>
-      <line num="8" count="7" type="stmt"/>
-      <line num="12" count="13" type="stmt"/>
-      <line num="14" count="13" type="cond" truecount="2" falsecount="0"/>
-      <line num="15" count="5" type="stmt"/>
-      <line num="19" count="13" type="stmt"/>
-      <line num="20" count="13" type="stmt"/>
-      <line num="24" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="12" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="17" count="6" type="stmt"/>
+      <line num="19" count="4" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="22" count="10" type="stmt"/>
       <line num="26" count="4" type="stmt"/>
-      <line num="28" count="4" type="stmt"/>
-      <line num="29" count="4" type="stmt"/>
-      <line num="31" count="4" type="stmt"/>
-      <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="38" count="2" type="stmt"/>
-      <line num="42" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="43" count="0" type="stmt"/>
-      <line num="49" count="1" type="stmt"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+    </file>
+    <file name="stacks.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/queueWithStacks/stacks.js">
+      <metrics statements="12" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="5" coveredmethods="4"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="9" count="22" type="stmt"/>
+      <line num="10" count="22" type="stmt"/>
+      <line num="14" count="19" type="cond" truecount="1" falsecount="1"/>
+      <line num="16" count="19" type="stmt"/>
+      <line num="17" count="19" type="stmt"/>
+      <line num="19" count="19" type="stmt"/>
+      <line num="23" count="6" type="cond" truecount="1" falsecount="1"/>
+      <line num="24" count="6" type="stmt"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
