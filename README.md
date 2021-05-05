@@ -17,3 +17,5 @@ Class 10 - [Stacks and Queues](https://github.com/Jarrell28/data-structures-and-
 Class 11 - [Queues with stacks](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/queueWithStacks)
 
 Class 12 - [FiFo Animal Shelter](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/fifoAnimalShelter)
+
+Class 13 - [Multi Bracket Validation](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/multiBracketValidation)
