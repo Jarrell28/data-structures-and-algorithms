@@ -10,4 +10,4 @@ Curly Brackets : {}
 
 ## Whiteboard
 
-![image](https://user-images.githubusercontent.com/33704616/117207305-70536280-adb9-11eb-8be4-db31d35e85c2.png)
+![image](https://user-images.githubusercontent.com/33704616/117207425-8d883100-adb9-11eb-85be-3224b580307b.png)
