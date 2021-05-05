@@ -1,44 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1620173967419" clover="3.2.0">
-  <project timestamp="1620173967419" name="All files">
-    <metrics statements="32" coveredstatements="32" conditionals="28" coveredconditionals="21" methods="10" coveredmethods="10" elements="70" coveredelements="63" complexity="0" loc="32" ncloc="32" packages="1" files="2" classes="2"/>
-    <file name="fifo-animal-shelter.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/fifoAnimalShelter/fifo-animal-shelter.js">
-      <metrics statements="15" coveredstatements="15" conditionals="20" coveredconditionals="15" methods="5" coveredmethods="5"/>
+<coverage generated="1620247513179" clover="3.2.0">
+  <project timestamp="1620247513180" name="All files">
+    <metrics statements="35" coveredstatements="32" conditionals="26" coveredconditionals="19" methods="6" coveredmethods="6" elements="67" coveredelements="57" complexity="0" loc="35" ncloc="35" packages="1" files="2" classes="2"/>
+    <file name="multi-bracket-validation.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/multiBracketValidation/multi-bracket-validation.js">
+      <metrics statements="20" coveredstatements="19" conditionals="20" coveredconditionals="16" methods="1" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="22" count="2" type="stmt"/>
-      <line num="23" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="24" count="2" type="stmt"/>
-      <line num="29" count="4" type="cond" truecount="3" falsecount="1"/>
-      <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="31" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="35" count="4" type="cond" truecount="3" falsecount="1"/>
-      <line num="36" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="37" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="41" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="8" type="cond" truecount="1" falsecount="1"/>
+      <line num="8" count="8" type="stmt"/>
+      <line num="9" count="8" type="stmt"/>
+      <line num="12" count="8" type="cond" truecount="1" falsecount="1"/>
+      <line num="14" count="8" type="stmt"/>
+      <line num="16" count="8" type="stmt"/>
+      <line num="17" count="69" type="stmt"/>
+      <line num="20" count="69" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="22" type="stmt"/>
+      <line num="22" count="47" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="20" type="cond" truecount="1" falsecount="1"/>
+      <line num="26" count="20" type="cond" truecount="8" falsecount="0"/>
+      <line num="27" count="17" type="stmt"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="34" count="27" type="stmt"/>
+      <line num="39" count="5" type="cond" truecount="1" falsecount="1"/>
+      <line num="40" count="5" type="stmt"/>
+      <line num="42" count="0" type="stmt"/>
     </file>
-    <file name="queue.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/fifoAnimalShelter/queue.js">
-      <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="15" count="2" type="stmt"/>
-      <line num="18" count="4" type="stmt"/>
-      <line num="22" count="4" type="stmt"/>
-      <line num="24" count="4" type="cond" truecount="1" falsecount="1"/>
-      <line num="25" count="4" type="stmt"/>
-      <line num="28" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="29" count="2" type="stmt"/>
-      <line num="32" count="4" type="stmt"/>
-      <line num="36" count="8" type="stmt"/>
-      <line num="40" count="4" type="cond" truecount="1" falsecount="1"/>
-      <line num="42" count="4" type="stmt"/>
-      <line num="46" count="1" type="stmt"/>
+    <file name="stacks.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/multiBracketValidation/stacks.js">
+      <metrics statements="15" coveredstatements="13" conditionals="6" coveredconditionals="3" methods="5" coveredmethods="5"/>
+      <line num="5" count="8" type="stmt"/>
+      <line num="9" count="22" type="cond" truecount="1" falsecount="1"/>
+      <line num="11" count="22" type="stmt"/>
+      <line num="13" count="22" type="stmt"/>
+      <line num="17" count="17" type="cond" truecount="1" falsecount="1"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="21" count="17" type="stmt"/>
+      <line num="22" count="17" type="stmt"/>
+      <line num="23" count="17" type="stmt"/>
+      <line num="27" count="43" type="cond" truecount="1" falsecount="1"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="31" count="43" type="stmt"/>
+      <line num="32" count="43" type="stmt"/>
+      <line num="36" count="85" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
