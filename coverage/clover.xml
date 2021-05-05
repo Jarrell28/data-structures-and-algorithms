@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1620089634295" clover="3.2.0">
-  <project timestamp="1620089634295" name="All files">
-    <metrics statements="26" coveredstatements="24" conditionals="8" coveredconditionals="4" methods="8" coveredmethods="7" elements="42" coveredelements="35" complexity="0" loc="26" ncloc="26" packages="1" files="2" classes="2"/>
-    <file name="queue-with-stacks.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/queueWithStacks/queue-with-stacks.js">
-      <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+<coverage generated="1620173967419" clover="3.2.0">
+  <project timestamp="1620173967419" name="All files">
+    <metrics statements="32" coveredstatements="32" conditionals="28" coveredconditionals="21" methods="10" coveredmethods="10" elements="70" coveredelements="63" complexity="0" loc="32" ncloc="32" packages="1" files="2" classes="2"/>
+    <file name="fifo-animal-shelter.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/fifoAnimalShelter/fifo-animal-shelter.js">
+      <metrics statements="15" coveredstatements="15" conditionals="20" coveredconditionals="15" methods="5" coveredmethods="5"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
-      <line num="8" count="2" type="stmt"/>
-      <line num="12" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="14" count="2" type="stmt"/>
-      <line num="16" count="4" type="stmt"/>
-      <line num="17" count="6" type="stmt"/>
-      <line num="19" count="4" type="stmt"/>
-      <line num="21" count="4" type="stmt"/>
-      <line num="22" count="10" type="stmt"/>
-      <line num="26" count="4" type="stmt"/>
-      <line num="30" count="3" type="stmt"/>
-      <line num="34" count="1" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="24" count="2" type="stmt"/>
+      <line num="29" count="4" type="cond" truecount="3" falsecount="1"/>
+      <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="35" count="4" type="cond" truecount="3" falsecount="1"/>
+      <line num="36" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="37" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="41" count="1" type="stmt"/>
     </file>
-    <file name="stacks.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/queueWithStacks/stacks.js">
-      <metrics statements="12" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="5" coveredmethods="4"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="9" count="22" type="stmt"/>
-      <line num="10" count="22" type="stmt"/>
-      <line num="14" count="19" type="cond" truecount="1" falsecount="1"/>
-      <line num="16" count="19" type="stmt"/>
-      <line num="17" count="19" type="stmt"/>
-      <line num="19" count="19" type="stmt"/>
-      <line num="23" count="6" type="cond" truecount="1" falsecount="1"/>
-      <line num="24" count="6" type="stmt"/>
-      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="29" count="0" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
+    <file name="queue.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/fifoAnimalShelter/queue.js">
+      <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="22" count="4" type="stmt"/>
+      <line num="24" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="25" count="4" type="stmt"/>
+      <line num="28" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="32" count="4" type="stmt"/>
+      <line num="36" count="8" type="stmt"/>
+      <line num="40" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="42" count="4" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
