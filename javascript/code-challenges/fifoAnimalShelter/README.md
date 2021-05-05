@@ -12,4 +12,4 @@ dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then
 
 ## Whiteboard
 
-![image](https://user-images.githubusercontent.com/33704616/117023556-d3ac9a00-acbe-11eb-8da9-9324fbd86250.png)
+![image](https://user-images.githubusercontent.com/33704616/117086278-bf45bd00-ad11-11eb-9613-7c00b2761032.png)
