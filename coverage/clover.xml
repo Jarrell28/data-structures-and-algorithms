@@ -1,47 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1620247513179" clover="3.2.0">
-  <project timestamp="1620247513180" name="All files">
-    <metrics statements="35" coveredstatements="32" conditionals="26" coveredconditionals="19" methods="6" coveredmethods="6" elements="67" coveredelements="57" complexity="0" loc="35" ncloc="35" packages="1" files="2" classes="2"/>
-    <file name="multi-bracket-validation.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/multiBracketValidation/multi-bracket-validation.js">
-      <metrics statements="20" coveredstatements="19" conditionals="20" coveredconditionals="16" methods="1" coveredmethods="1"/>
+<coverage generated="1620487786975" clover="3.2.0">
+  <project timestamp="1620487786976" name="All files">
+    <metrics statements="58" coveredstatements="58" conditionals="38" coveredconditionals="38" methods="15" coveredmethods="15" elements="111" coveredelements="111" complexity="0" loc="58" ncloc="58" packages="1" files="3" classes="3"/>
+    <file name="binary-search-tree.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/tree/binary-search-tree.js">
+      <metrics statements="31" coveredstatements="31" conditionals="23" coveredconditionals="23" methods="7" coveredmethods="7"/>
       <line num="3" count="1" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
-      <line num="6" count="8" type="cond" truecount="1" falsecount="1"/>
-      <line num="8" count="8" type="stmt"/>
-      <line num="9" count="8" type="stmt"/>
-      <line num="12" count="8" type="cond" truecount="1" falsecount="1"/>
-      <line num="14" count="8" type="stmt"/>
-      <line num="16" count="8" type="stmt"/>
-      <line num="17" count="69" type="stmt"/>
-      <line num="20" count="69" type="cond" truecount="2" falsecount="0"/>
-      <line num="21" count="22" type="stmt"/>
-      <line num="22" count="47" type="cond" truecount="2" falsecount="0"/>
-      <line num="23" count="20" type="cond" truecount="1" falsecount="1"/>
-      <line num="26" count="20" type="cond" truecount="8" falsecount="0"/>
-      <line num="27" count="17" type="stmt"/>
-      <line num="30" count="3" type="stmt"/>
-      <line num="34" count="27" type="stmt"/>
-      <line num="39" count="5" type="cond" truecount="1" falsecount="1"/>
-      <line num="40" count="5" type="stmt"/>
-      <line num="42" count="0" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="11" count="13" type="stmt"/>
+      <line num="13" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="18" count="10" type="stmt"/>
+      <line num="19" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="23" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="29" count="10" type="stmt"/>
+      <line num="31" count="10" type="stmt"/>
+      <line num="35" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="37" count="2" type="stmt"/>
+      <line num="39" count="2" type="stmt"/>
+      <line num="40" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="41" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="42" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="2" type="stmt"/>
+      <line num="46" count="2" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="54" count="5" type="stmt"/>
+      <line num="55" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="56" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
     </file>
-    <file name="stacks.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/multiBracketValidation/stacks.js">
-      <metrics statements="15" coveredstatements="13" conditionals="6" coveredconditionals="3" methods="5" coveredmethods="5"/>
-      <line num="5" count="8" type="stmt"/>
-      <line num="9" count="22" type="cond" truecount="1" falsecount="1"/>
-      <line num="11" count="22" type="stmt"/>
-      <line num="13" count="22" type="stmt"/>
-      <line num="17" count="17" type="cond" truecount="1" falsecount="1"/>
-      <line num="18" count="0" type="stmt"/>
-      <line num="21" count="17" type="stmt"/>
-      <line num="22" count="17" type="stmt"/>
-      <line num="23" count="17" type="stmt"/>
-      <line num="27" count="43" type="cond" truecount="1" falsecount="1"/>
-      <line num="28" count="0" type="stmt"/>
-      <line num="31" count="43" type="stmt"/>
-      <line num="32" count="43" type="stmt"/>
-      <line num="36" count="85" type="stmt"/>
-      <line num="40" count="1" type="stmt"/>
+    <file name="node.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/tree/node.js">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="26" type="stmt"/>
+      <line num="6" count="26" type="stmt"/>
+      <line num="7" count="26" type="stmt"/>
+    </file>
+    <file name="tree.js" path="/mnt/c/Users/jhous/school/data-structures-and-algorithms/javascript/code-challenges/tree/tree.js">
+      <metrics statements="23" coveredstatements="23" conditionals="13" coveredconditionals="13" methods="7" coveredmethods="7"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="6" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="31" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="44" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="46" count="3" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
