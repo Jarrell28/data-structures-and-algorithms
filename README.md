@@ -21,3 +21,5 @@ Class 12 - [FiFo Animal Shelter](https://github.com/Jarrell28/data-structures-an
 Class 13 - [Multi Bracket Validation](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/multiBracketValidation)
 
 Class 15 - [Binary Tree and BST Implementation](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/tree)
+
+Class 16 - [Binary Tree Maximum Value](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/find-maximum-binary-tree)
