@@ -5,5 +5,6 @@ module.exports = class Node {
         this.value = value;
         this.left = left;
         this.right = right;
+        this.next = null;
     }
 }
