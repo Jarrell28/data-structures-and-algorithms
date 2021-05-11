@@ -7,4 +7,4 @@ Write a breadth first traversal method which takes a Binary Tree as its unique i
 
 ## Whiteboard
 
-![image](https://user-images.githubusercontent.com/33704616/117734105-6023f480-b1b8-11eb-8608-018b35a8e33d.png)
+![BSTbreadthFirst](https://user-images.githubusercontent.com/33704616/117894273-9ed1b180-b281-11eb-8e20-4af5e9e48fd0.png)
