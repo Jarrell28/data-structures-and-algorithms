@@ -24,3 +24,19 @@ describe('Binary Tree Maximum Value', () => {
 
     })
 })
+
+describe('Binary Tree Breadth First Traversal', () => {
+
+    it('should return a list of a tree using breadth first traversal', () => {
+        const bt = new BT();
+
+        bt.add(10);
+        bt.add(7);
+        bt.add(12);
+        bt.add(5);
+        bt.add(11);
+        bt.add(14);
+
+        expect(bt.breadthTraversal(bt)).toEqual([10, 7, 12, 5, 11, 14]);
+    })
+})

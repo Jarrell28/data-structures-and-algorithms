@@ -1,8 +1,8 @@
-# Binary Tree Maximum Value
+# Binary Tree Breadth First Traversal
 
 
 ## Challenge Description
-Return the max value in the Binary Tree
+Write a breadth first traversal method which takes a Binary Tree as its unique input returning a list of the values in the tree in the order they were encountered
 
 
 ## Whiteboard

@@ -1,6 +1,7 @@
 'use strict';
 
 const Node = require('./node.js');
+const Queue = require('./queue.js');
 
 module.exports = class BinaryTree {
     constructor(root = null) {
@@ -105,6 +106,24 @@ module.exports = class BinaryTree {
         _walk(this.root);
 
         return max;
+    }
+
+    breadthTraversal(tree) {
+        if (tree.root === null) return null;
+
+        const treeValues = [];
+        const treeQueue = new Queue();
+        treeQueue.enqueue(tree.root);
+
+        while (treeQueue.peek()) {
+            let front = treeQueue.dequeue();
+            treeValues.push(front.value);
+
+            if (front.left) treeQueue.enqueue(front.left);
+            if (front.right) treeQueue.enqueue(front.right);
+        }
+
+        return treeValues;
     }
 
 }
