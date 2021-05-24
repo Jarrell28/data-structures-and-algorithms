@@ -23,3 +23,7 @@ Class 13 - [Multi Bracket Validation](https://github.com/Jarrell28/data-structur
 Class 15 - [Binary Tree and BST Implementation](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/tree)
 
 Class 16 - [Binary Tree Maximum Value](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/BinaryTree)
+
+Class 17 - [Binary Tree Breadth First](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/BinaryTree)
+
+Class 18 - [K-ary Tree Fizz Buzz](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/fizzBuzzTree)
