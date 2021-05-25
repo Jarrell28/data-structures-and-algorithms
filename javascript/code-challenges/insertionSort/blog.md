@@ -40,6 +40,12 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 ![image](https://user-images.githubusercontent.com/33704616/119532285-5c60a800-bd4a-11eb-8cb5-b78b5f131b87.png)
 
 
-### Test
+## Efficiency
+
+Time Complexity - O(n^2)
+
+Space Complexity - O(1)
+
+## Test
 
 ![image](https://user-images.githubusercontent.com/33704616/119524892-a5612e00-bd43-11eb-9933-384fb654d0d3.png)
