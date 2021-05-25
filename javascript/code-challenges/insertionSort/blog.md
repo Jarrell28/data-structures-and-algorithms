@@ -19,3 +19,4 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
  
 ## Psuedo code
 
+![image](https://user-images.githubusercontent.com/33704616/119509055-e6eadc80-bd35-11eb-97ab-dafd767553e8.png)
