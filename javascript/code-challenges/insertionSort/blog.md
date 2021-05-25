@@ -16,7 +16,16 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
  
  - More efficient in practice than most other simple algorithms such as selection sort or bubble sort
  
- 
-## Psuedo code
+## How it works
+
+
+### Psuedo code
 
 ![image](https://user-images.githubusercontent.com/33704616/119509055-e6eadc80-bd35-11eb-97ab-dafd767553e8.png)
+
+### Sample Array - [8, 4, 23, 42, 16, 15]
+ 
+
+### Test
+
+![image](https://user-images.githubusercontent.com/33704616/119524892-a5612e00-bd43-11eb-9933-384fb654d0d3.png)
