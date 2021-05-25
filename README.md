@@ -27,3 +27,5 @@ Class 16 - [Binary Tree Maximum Value](https://github.com/Jarrell28/data-structu
 Class 17 - [Binary Tree Breadth First](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/BinaryTree)
 
 Class 18 - [K-ary Tree Fizz Buzz](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/fizzBuzzTree)
+
+Class 18 - [Insertion Sort](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/insertionSort)
