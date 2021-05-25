@@ -24,7 +24,21 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 ![image](https://user-images.githubusercontent.com/33704616/119509055-e6eadc80-bd35-11eb-97ab-dafd767553e8.png)
 
 ### Sample Array - [8, 4, 23, 42, 16, 15]
- 
+
+![image](https://user-images.githubusercontent.com/33704616/119531830-ed834f00-bd49-11eb-977c-c82b556e9add.png)
+
+![image](https://user-images.githubusercontent.com/33704616/119531939-0986f080-bd4a-11eb-81c0-42efa6d6c41c.png)
+
+![image](https://user-images.githubusercontent.com/33704616/119531970-10adfe80-bd4a-11eb-9f24-cbe8e5ce4dbc.png)
+
+![image](https://user-images.githubusercontent.com/33704616/119532095-2e7b6380-bd4a-11eb-8388-0f0d1b03b213.png)
+
+![image](https://user-images.githubusercontent.com/33704616/119532120-34714480-bd4a-11eb-884f-a6c9791d1def.png)
+
+![image](https://user-images.githubusercontent.com/33704616/119532239-52d74000-bd4a-11eb-8a1b-b86493e3efdf.png)
+
+![image](https://user-images.githubusercontent.com/33704616/119532285-5c60a800-bd4a-11eb-8cb5-b78b5f131b87.png)
+
 
 ### Test
 
