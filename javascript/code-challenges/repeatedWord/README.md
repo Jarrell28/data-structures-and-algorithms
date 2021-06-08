@@ -3,7 +3,7 @@ Hashtables are a data structure that utilize key value pairs. This means every N
 
 
 ## Challenge Summary
-Write a function that accepts a lengthy string parameter
+Write a function that accepts a lengthy string parameter and returns the first word that is repeated
 
 
 ## Approach & Efficiency
