@@ -2,21 +2,16 @@
 Hashtables are a data structure that utilize key value pairs. This means every Node or Bucket has both a key, and a value.
 
 
-## Challenge Description
-Implement a Hashtable with the following methods:
+## Challenge Summary
+Write a function that accepts a lengthy string parameter
 
-- set
-- get
-- contains
-- hash
 
-## API
+## Approach & Efficiency
+My approach was to split the string into an array and then loop through the array, adding the word to the hashtable. This way I would be able to easily check if the word already exists in the hashtable, and if it does then return word.
 
-set(key, val) - Takes a key value pair and adds it to the hashtable
+## Solution
 
-get(key) - Takes in the key and returns the value from the table.
+![image](https://user-images.githubusercontent.com/33704616/121104465-bdb35d00-c7c7-11eb-8104-feba9b1b0bf3.png)
 
-hash(key) - Takes in an arbitrary key and returns an index in the collection.
 
-contains(key) - Takes in the key and returns a boolean, indicating if the key exists in the table already.
 
