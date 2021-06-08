@@ -34,3 +34,7 @@ Class 28 - [Quick Sort](https://github.com/Jarrell28/data-structures-and-algorit
 
 Class 34 - [Hash Table](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/hashtable)
 
+Class 36 - [Hash Table Repeated Word](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/repeatedWord)
+
+Class 37 - [Hash Table Left Join](https://github.com/Jarrell28/data-structures-and-algorithms/tree/master/javascript/code-challenges/leftJoin)
+
